@@ -1,0 +1,51 @@
+//Every go program must be a part of some package
+//Types of packages
+//1. Executable package
+
+//2. Non Executable(Reusable package)
+//2.1 In built packages
+//2.2 Third party packages
+//2.3 USer defined packages
+
+
+	// // The parse functions return the widest type (float64, int64, and uint64),
+	// //but if the size argument specifies a narrower width the result can be converted to that narrower type without data loss:
+	// s := "2147483647" // biggest int32
+	// i64, err := strconv.ParseInt(s, 10, 32)
+
+	// fmt.Println(i64, err)
+
+	// v := "3.1415926535"
+	// s23, err12 := strconv.ParseFloat(v, 32)
+
+	// fmt.Println(s23, err12)
+
+	// i, err := strconv.ParseInt("123456", 10, 64)
+	// fmt.Println(i, err)
+	// fmt.Println(strconv.IntSize)
+
+	// var d1 float32 = 3.1415926535
+	// var d2 float64 = 3.1415926535
+
+	// fmt.Println(d1)
+	// fmt.Println(d2)
+}
+
+// 	b, err := strconv.ParseBool("true")
+// f, err := strconv.ParseFloat("3.1415", 64)
+// i, err := strconv.ParseInt("-42", 10, 64)
+// u, err := strconv.ParseUint("42", 10, 64)
+
+// s := strconv.FormatBool(true)
+//s := strconv.FormatFloat(3.1415, 'E', -1, 64)
+// s := strconv.FormatInt(-42, 16)
+// s := strconv.FormatUint(42, 16)
+// }
+------------
+
+
+
+In GoLang
+we can assign function to a variable
+we can pass function as i/p parameter to another function
+We can return a function as a value

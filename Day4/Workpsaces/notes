@@ -1,0 +1,3 @@
+go work use lib2
+
+go work init
